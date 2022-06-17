@@ -40,6 +40,7 @@ AGL_APPS = " \
     html5-aquarium \
     html5-youtube \
     html5-jitsi \
+    html5-examples \
     "
 
 # TODO(jdapena): review if we still need the demo-i2c stuff.
