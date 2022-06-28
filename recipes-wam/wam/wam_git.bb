@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7ca
 
 inherit cmake pkgconfig
 
-DEPENDS = "glib-2.0 jsoncpp boost chromium protobuf protobuf-native libxml2"
+DEPENDS = "glib-2.0 jsoncpp boost chromium protobuf protobuf-native grpc grpc-native libxml2"
 
 EXTRA_OECMAKE = "\
     -DCMAKE_BUILD_TYPE=Release \
